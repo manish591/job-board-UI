@@ -1,8 +1,21 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const generalSans = localFont({
+  src: [
+    {
+      path: "../assets/fonts/GeneralSans-Regular.otf",
+      weight: "400",
+      style: "normal"
+    },
+    {
+      path: "../assets/fonts/GeneralSans-Semibold.otf",
+      weight: "600",
+      style: "normal"
+    }
+  ]
+});
 
 export const metadata: Metadata = {
   title: "Job Board",
@@ -16,7 +29,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={generalSans.className}>{children}</body>
     </html>
   );
 }
