@@ -23,4 +23,11 @@
 
   --border-100: #E7E7E7;
   --border-200: #D1D1D1;
+  --border-300: #FCB4A5;
+  --border-400: #FED3CA;
+}
+
+html,
+body {
+  height: 100%;
 }

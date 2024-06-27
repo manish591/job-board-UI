@@ -13,7 +13,7 @@ const config: Config = {
         bgPrimary: "var(--bg-primary)",
         bgSecondary: "var(--bg-secondary)",
         bgGhost: "var(--bg-ghost)",
-
+        
         textBlack900: "var(--text-black-900)",
         textBlack800: "var(--text-black-800)",
         textBlack700: "var(--text-black-700)",
@@ -27,7 +27,9 @@ const config: Config = {
         textGreen300: "var(--text-green-300)",
 
         border100: "var(--border-100)",
-        border200: "var(--border-200)"
+        border200: "var(--border-200)",
+        border300: "var(--border-300)",
+        border400: "var(--border-400)",
       }
     },
   },
