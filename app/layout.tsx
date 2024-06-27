@@ -13,7 +13,12 @@ const generalSans = localFont({
       path: "../assets/fonts/GeneralSans-Semibold.otf",
       weight: "600",
       style: "normal"
-    }
+    },
+    {
+      path: "../assets/fonts/GeneralSans-Medium.otf",
+      weight: "500",
+      style: "normal"
+    },
   ]
 });
 
