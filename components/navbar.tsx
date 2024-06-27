@@ -5,7 +5,7 @@ import NavlinksRenderer from "@/components/navlinksrenderer";
 
 export default function Navbar() {
   return (
-    <nav className='py-4 shadow-[0_4px_4px_#D9D9D91A]'>
+    <nav className='py-4 shadow-[0_6px_6px_rgba(217,217,217,0.10)]'>
       <div className="flex justify-between items-center w-11/12 mx-auto">
         <Logo>
           <div className="py-4 px-5 bg-[#e7e7e7] w-max inline-block">

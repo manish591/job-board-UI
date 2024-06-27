@@ -28,7 +28,7 @@ export default function Navlink({ href, Icon, name }: NavLinkProps) {
             className={cn("text-textBlack300", {"text-white": isActive})} 
           />
         </div>
-        <p className={`text-lg text-textBlack300 capitalize ${isActive && "text-white"}`}>{name}</p>  
+        <p className={`text-lg text-textBlack300 font-medium capitalize ${isActive && "text-white"}`}>{name}</p>  
       </div>
     </Link>
   )

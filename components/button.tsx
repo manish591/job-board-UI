@@ -5,7 +5,7 @@ const buttonVariants = cva("inline-flex items-center justify-center whitespace-n
   variants: {
     variant: {
       default: "bg-brand text-white border-2 border-border400",
-      secondary: "bg-bgGhost border border-brand",
+      secondary: "bg-bgGhost border border-brand text-brand",
     },
   },
   defaultVariants: {

@@ -1,8 +1,8 @@
 export default function JobDescription() {
   return (
     <div className="py-9 pl-[6vw] border-t border-border100">
-      <p className="text-textBlack400 text-sm">About the job</p>
-      <div className="text-textBlack100 mt-3">
+      <p className="text-textBlack400">About the job</p>
+      <div className="text-textBlack900 font-medium mt-3">
         <ol className="list-decimal pl-4">
           <li>Handle the UI/UX research design</li>
           <li>Work on researching on latest web applications designs & trends</li>

@@ -1,8 +1,5 @@
-import Image from "next/image";
-import { MapPin, CircleDollarSign } from "lucide-react";
 import Navbar from "@/components/navbar";
 import Tabs from "@/components/tabs";
-import Sidebar from "@/components/sidebar";
 import Main from "@/components/main";
 
 export default function Dashboard() {
